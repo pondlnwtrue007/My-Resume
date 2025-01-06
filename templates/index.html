@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Resume</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <!-- ใช้ Bootstrap (CDN) ถ้าต้องการดีไซน์สวยและง่าย -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Resume</a>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row">
+      <!-- ประวัติส่วนตัว -->
+      <div class="col-md-4 text-center">
+        <img src="static\image\รูปนักศึกษา 6504101344.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
+        <h2>นาย ธรรมรักษ์ พวงมาลี</h2>
+        <p>Web Developer Intern</p>
+      </div>
+      <!-- รายละเอียดประสบการณ์ -->
+      <div class="col-md-8">
+        <h3>About Me</h3>
+        <p>
+            สวัสดีค่ะ/ครับ ฉันชื่อ นาย ธรรมรักษ์ พวงมาลี กำลังศึกษาชั้นปีที่ 3 สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัย แม่โจ้.
+            ฉันมีความสนใจในการพัฒนาและออกแบบซอฟต์แวร์ รวมถึงการแก้ไขปัญหาเชิงเทคนิคด้วยวิธีการที่สร้างสรรค์และมีประสิทธิภาพ
+        </p>
+        <h3>จุดแข็งของฉัน:</h3>
+        <ul>
+            <li>ใส่ใจรายละเอียด: วิเคราะห์ปัญหาอย่างเป็นระบบและลงมือแก้ไขด้วยความรอบคอบ</li>
+            <li>เรียนรู้เร็ว: ชอบค้นคว้าเทคโนโลยีใหม่ ๆ และปรับใช้ได้อย่างรวดเร็ว</li>
+            <li>มีทักษะการสื่อสารที่ดี: สามารถอธิบายแนวคิดทางเทคนิคให้เพื่อนร่วมทีมเข้าใจได้ง่าย</li>
+            <li>มีความคิดสร้างสรรค์: ชอบนำเสนอไอเดียแปลกใหม่เพื่อพัฒนาประสิทธิภาพของระบบ</li>
+            
+          </ul>
+
+        <h3>Education</h3>
+        <ul>
+          <li>ปริญญาตรี สาขา วิทยาการคอมพิวเตอร์ มหาวิทยาลัย แม่โจ้</li>
+          
+        </ul>
+
+        <h3> การฝึกอบรมหรือการเข้าร่วมกิจกรรม</h3>
+        <ul>
+          <li>โครงการ Link Cabling & Network Solution for University </li>
+          <li>อบรมหัวข้อ Restfull API โดย บริษัท INET </li>
+          <li>เกษตรสุขอัจฉริยะ: พลิกโฉมนวัตกรรมวิจัยสู่การใช้งานจริง </li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>Python, Flask</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Git, GitHub</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <p>Email: <a href="koonkoonpond2@gmail.com">koonkoonpond2@gmail.com</a></p>
+        <p>Phone: 093-310-4222</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-light text-center py-3">
+    <p>© 2025 My Resume. All rights reserved.</p>
+  </footer>
+
+  <!-- JS ของ Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
